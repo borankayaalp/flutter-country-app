@@ -1,16 +1,12 @@
 # country_app
 
-A new Flutter project.
+A flutter project about how to fetch and display country information from the internet using the REST Countries API resource.
 
-## Getting Started
+![Screenshot_1](https://user-images.githubusercontent.com/105130497/172707458-61aee6f8-7e8a-4bf2-86f5-9b7605b6cd46.png) ![Screenshot_2](https://user-images.githubusercontent.com/105130497/172707488-ac282b00-7ee8-48dc-aac5-5adb6e06c2dc.png) ![Screenshot_3](https://user-images.githubusercontent.com/105130497/172707499-091a4918-22d1-4486-99bf-58db3d7ae826.png)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Detailed information about this project can be found at the link below
+
+https://medium.com/@borankayaalp96/flutter-country-app-bloc-rest-countries-api-ccb82c6f200
