@@ -2,12 +2,13 @@ import 'package:country_app/data/models/country_model.dart';
 import 'package:http/http.dart' as http;
 import 'dart:convert';
 
+import '../constants/constants.dart';
+
 class CountryRepository {
-  final String _baseUrl = "https://restcountries.com/v3.1/all";
   List<CountryModel> countryList = [];
 
   Future<List<CountryModel>> getCountries() async {
-    final response = await http.get(Uri.parse(_baseUrl));
+    final response = await http.get(Uri.parse(baseUrl));
 
     if (response.statusCode == 200) {
       var jsonList = jsonDecode(response.body) as List;

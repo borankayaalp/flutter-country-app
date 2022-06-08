@@ -10,3 +10,5 @@ final List<String> groupItems = [
   'Subregion',
   'Ungrouped',
 ];
+
+const String baseUrl = "https://restcountries.com/v3.1/all";
